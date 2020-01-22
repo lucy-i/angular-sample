@@ -1,0 +1,21 @@
+{
+  "name": "@enterprise/utils/pipe",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/enterprise-utils-pipe.umd.js",
+  "module": "fesm5/enterprise-utils-pipe.js",
+  "es2015": "fesm2015/enterprise-utils-pipe.js",
+  "esm5": "esm5/enterprise-utils-pipe.js",
+  "esm2015": "esm2015/enterprise-utils-pipe.js",
+  "fesm5": "fesm5/enterprise-utils-pipe.js",
+  "fesm2015": "fesm2015/enterprise-utils-pipe.js",
+  "typings": "enterprise-utils-pipe.d.ts",
+  "metadata": "enterprise-utils-pipe.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

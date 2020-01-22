@@ -1,0 +1,70 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@enterprise/utils/validator": [
+        "lib/utils/validator"
+      ],
+      "@enterprise/utils/validator/*": [
+        "lib/utils/validator/*"
+      ],
+      "@enterprise/utils/pipe": [
+        "lib/utils/pipe"
+      ],
+      "@enterprise/utils/pipe/*": [
+        "lib/utils/pipe/*"
+      ],
+      "@enterprise/utils/api": [
+        "lib/utils/api"
+      ],
+      "@enterprise/utils/api/*": [
+        "lib/utils/api/*"
+      ],
+      "@modules/administration": [
+        "lib/modules/administration"
+      ],
+      "@modules/administration/*": [
+        "lib/modules/administration/*"
+      ],
+      "@modules/stock": [
+        "lib/modules/stock"
+      ],
+      "@modules/stock/*": [
+        "lib/modules/stock/*"
+      ],
+      "@modules/quote": [
+        "lib/modules/quote"
+      ],
+      "@modules/quote/*": [
+        "lib/modules/quote/*"
+      ],
+      "@modules/pricing": [
+        "lib/modules/pricing"
+      ],
+      "@modules/pricing/*": [
+        "lib/modules/pricing/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

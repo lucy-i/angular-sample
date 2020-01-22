@@ -1,0 +1,21 @@
+{
+  "name": "@enterprise/utils/api",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/enterprise-utils-api.umd.js",
+  "module": "fesm5/enterprise-utils-api.js",
+  "es2015": "fesm2015/enterprise-utils-api.js",
+  "esm5": "esm5/enterprise-utils-api.js",
+  "esm2015": "esm2015/enterprise-utils-api.js",
+  "fesm5": "fesm5/enterprise-utils-api.js",
+  "fesm2015": "fesm2015/enterprise-utils-api.js",
+  "typings": "enterprise-utils-api.d.ts",
+  "metadata": "enterprise-utils-api.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

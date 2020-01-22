@@ -1,0 +1,21 @@
+{
+  "name": "@enterprise/utils/validator",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/enterprise-utils-validator.umd.js",
+  "module": "fesm5/enterprise-utils-validator.js",
+  "es2015": "fesm2015/enterprise-utils-validator.js",
+  "esm5": "esm5/enterprise-utils-validator.js",
+  "esm2015": "esm2015/enterprise-utils-validator.js",
+  "fesm5": "fesm5/enterprise-utils-validator.js",
+  "fesm2015": "fesm2015/enterprise-utils-validator.js",
+  "typings": "enterprise-utils-validator.d.ts",
+  "metadata": "enterprise-utils-validator.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

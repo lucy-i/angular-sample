@@ -1,0 +1,21 @@
+{
+  "name": "@module/stock",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/module-stock.umd.js",
+  "module": "fesm5/module-stock.js",
+  "es2015": "fesm2015/module-stock.js",
+  "esm5": "esm5/module-stock.js",
+  "esm2015": "esm2015/module-stock.js",
+  "fesm5": "fesm5/module-stock.js",
+  "fesm2015": "fesm2015/module-stock.js",
+  "typings": "module-stock.d.ts",
+  "metadata": "module-stock.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

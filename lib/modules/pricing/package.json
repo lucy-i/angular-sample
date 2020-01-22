@@ -1,0 +1,21 @@
+{
+  "name": "@modules/pricing",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/modules-pricing.umd.js",
+  "module": "fesm5/modules-pricing.js",
+  "es2015": "fesm2015/modules-pricing.js",
+  "esm5": "esm5/modules-pricing.js",
+  "esm2015": "esm2015/modules-pricing.js",
+  "fesm5": "fesm5/modules-pricing.js",
+  "fesm2015": "fesm2015/modules-pricing.js",
+  "typings": "modules-pricing.d.ts",
+  "metadata": "modules-pricing.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
